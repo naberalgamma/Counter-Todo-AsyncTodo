@@ -1,0 +1,38 @@
+.btn {
+  padding: 5px;
+  background-color: rgb(107, 107, 107);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.async_input_todo {
+  display: flex;
+  margin-left: 35%;
+}
+.async_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.async_todo_element {
+  list-style: none;
+}
+.async_todo_element_cheked {
+  list-style: none;
+  text-decoration: line-through;
+}
+.async_todo {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  padding: 10px;
+  margin-left: 30%;
+  border: 1px solid black;
+}
+
+.async_remove {
+  background-color: inherit;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
